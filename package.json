@@ -1,0 +1,18 @@
+{
+  "author": {
+    "name": "Panak Felegyhazi",
+    "email": "panka.felegyhazi@gmail.com",
+    "url": "https://github.com/panka-felegyhazi"
+  },
+  "license": "MIT",
+  "name": "panka-felegyhazi-exam",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "sharp": "^0.29.1"
+  }
+}
