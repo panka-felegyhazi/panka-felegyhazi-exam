@@ -1,21 +1,48 @@
-@import url("npm:@picocss/pico/css/pico.min.css");
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  margin: auto;
-  max-width: fit-content;
+/* @import url("npm:@picocss/pico/css/pico.min.css"); */
+*{
+  width: 1000px;
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  background-color: #b3a87a;
 }
-
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
+header{
+  margin:0pt;
+  height: 20px;
+  text-align: right;
+}
+.container {
+justify-content: center;
+}
+h1{
+  text-align: center;
+  background-size: 100px;
+}
+h2{
   text-align: center;
 }
-
-article h1 {
+button{
+  width: 196.5px;
+  background-color: rgb(146, 153, 118);
   text-align: center;
+  font-style: normal;
+}
+a{
+ background-color:rgb(146, 153, 118) ;
+}
+p{
+  font-family: 'Times New Roman';
+  background-color: #cabc7d;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+footer{
+  font-size:10px;
+	height:32px;
+  background: rgb(153, 102, 0);
+}
+footer p{
+  background-color: rgb(153, 102, 0);
+  color: #b3a87a;
 }
