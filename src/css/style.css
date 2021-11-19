@@ -1,10 +1,10 @@
 /* @import url("npm:@picocss/pico/css/pico.min.css"); */
 *{
-  width: 1000px;
+  width: auto;
   padding: 0px;
   margin: 0px;
   align-self: center;
-  background-color: #b3a87a;
+background-color: #b3a87a;
 }
 header{
   margin:0pt;
@@ -30,7 +30,7 @@ button{
 a{
  background-color:rgb(146, 153, 118) ;
 }
-p{
+p.content{
   font-family: 'Times New Roman';
   background-color: #cabc7d;
   border-radius: 25px;
@@ -45,4 +45,17 @@ footer{
 footer p{
   background-color: rgb(153, 102, 0);
   color: #b3a87a;
+  text-align: center;
+}
+.container{
+display: flex;
+justify-content: center;
+}
+.child{
+  width: 1000px;
+}
+img{
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
